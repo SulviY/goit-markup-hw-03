@@ -14,6 +14,31 @@ body {
   color: var(--primary-text-color);
 }
 
+/* .container{
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+} */
+
 .title {
   color: var(--title-text-color);
 }
@@ -55,6 +80,43 @@ body {
 }
 
 /* =========HEADER========== */
+
+/* .header-container {
+  display: flex;
+  align-items: center;
+} */
+
+/* .nav {
+  display: flex;
+  align-items: center;
+} */
+
+/* .menu {
+  display: flex;
+  align-items: center;
+} */
+
+/* для лого марджин райт х пикселей 
+
+для меню айтем можно сделать паддинг, 
+чтоб ссылка была больше для нажатия
+
+.menu-link:not(:last-child){
+  marging-right: px;
+}
+
+.contact-email {
+  margin-left: auto;
+  margin-right: px;
+}
+
+.header {
+  padding-top: px;
+  padding-bottom: px;
+}
+
+*/
+
 
 .logo {
   font-family: Raleway, sans-serif;
