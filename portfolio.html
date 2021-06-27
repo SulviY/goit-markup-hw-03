@@ -13,7 +13,8 @@
 <body>
     <!--шапка страницы-->
     <header class="header">
-        <a href="./index.html" class="logo link"><span class="accent">Web</span>Studio</a>
+        <div class="container header-container">
+            <a href="./index.html" class="logo link"><span class="accent">Web</span>Studio</a>
 
         <!-- навигация на другие страницы -->
         <nav class="nav title">
@@ -21,10 +22,10 @@
                 <li class="menu-item">
                     <a class="menu-link link" href="./index.html">Студия</a>
                 </li>
-                <li>
+                <li class="menu-item">
                     <a class="menu-link link link-current" href="./portfolio.html">Портфолио</a>
                 </li>
-                <li>
+                <li class="menu-item">
                     <a class="menu-link link" href="#">Контакты</a>
                 </li>
             </ul>           
@@ -38,10 +39,11 @@
                 <a class="contact-tel link menu-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+        </div>
     </header>
 
 <!--our projects-->
-<section>
+<section class="container">
     <h2 class="title projects visually-hidden title">
         Наши проекты
     </h2>
@@ -49,71 +51,71 @@
     <!-- filter -->
     <ul class="filter-list list">
         <li class="filter-list-item"><button class="filter-btn" type="button">Все</button></li>
+        <li class="filter-list-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
         <li class="filter-list-item"><button class="filter-btn" type="button">Приложения</button></li>
         <li class="filter-list-item"><button class="filter-btn" type="button">Дизайн</button></li>
         <li class="filter-list-item"><button class="filter-btn" type="button">Маркетинг</button></li>
-        <li class="filter-list-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
     </ul>
 
     <!-- projects -->
-    <ul class="projects-list list">
-        <li class="projects-list-item">
+    <ul class="projects-cards list">
+        <li class="projects-cards-item">
             <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/website-opened-on-the-laptop.jpg" alt="Веб-сайт открыт на ноутбуке" width="370" height="295">
                 <h3 class="projects-list-item-title title">Технокряк</h3>
                 <p class="projects-list-item-text">Веб-сайт</p>
             </a>
         </li>
-        <li class="projects-list-item">
+        <li class="projects-cards-item">
             <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/two-basketballers.jpg" alt="Два баскетболиста" width="370" height="295">
                 <h3 class="projects-list-item-title title">Постер New Orlean vs Golden Star</h3>
                 <p class="projects-list-item-text">Дизайн</p>
             </a>
         </li>
-        <li class="projects-list-item">
+        <li class="projects-cards-item">
            <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/fish-and-name-of-the-restaurant.jpg" alt="Лого ресторана на фоне рыбы" width="370" height="295">
                 <h3 class="projects-list-item-title title">Ресторан Seafood</h3>
                 <p class="projects-list-item-text">Приложение</p>
            </a>
         </li>
-        <li class="projects-list-item">
+        <li class="projects-cards-item">
             <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/headphones.jpg" alt="Наушники" width="370" height="295">
                 <h3 class="projects-list-item-title title">Проект Prime</h3>
                 <p class="projects-list-item-text">Маркетинг</p>
             </a>
         </li>
-        <li class="projects-list-item">
+        <li class="projects-cards-item">
             <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/two-boxes.jpg" alt="Две коробки" width="370" height="295">
                 <h3 class="projects-list-item-title title">Проект Boxes</h3>
                 <p class="projects-list-item-text">Приложение</p>
             </a>
         </li>
-        <li class="projects-list-item">
+        <li class="projects-cards-item">
             <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/monitor.jpg" alt="Монитор" width="370" height="295">
                 <h3 class="projects-list-item-title title">Inspiration has no Borders</h3>
                 <p class="projects-list-item-text">Веб-сайт</p>
             </a>
         </li>
-        <li class="projects-list-item">
+        <li class="projects-cards-item">
             <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/open-book.jpg" alt="Открытая книга" width="370" height="295">
                 <h3 class="projects-list-item-title title">Издание Limited Edition</h3>
                 <p class="projects-list-item-text">Дизайн</p>
             </a>
         </li>
-        <li class="projects-list-item">
+        <li class="projects-cards-item">
             <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/label-tag.jpg" alt="Ярлык с надписью" width="370" height="295">
                 <h3 class="projects-list-item-title title">Проект LAB</h3>
                 <p class="projects-list-item-text">Маркетинг</p>
             </a>
         </li>
-        <li class="projects-list-item">
+        <li class="projects-cards-item">
             <a href="#" class="projects-list-item-link link">
                 <img src="./images/portfolio/hands-on-the-laptop-keyboard.jpg" alt="Руки на клавиатуре ноутбука" width="370" height="295">
                 <h3 class="projects-list-item-title title">Growing Business</h3>
